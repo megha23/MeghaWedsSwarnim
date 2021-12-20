@@ -592,18 +592,18 @@ form label {
 #fh5co-header .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
-  background: #fff !important;
+  background: #fff;
   color: #F14E95;
-  border: none !important;
+  border: none;
   font-size: 14px;
   text-transform: uppercase;
 }
 #fh5co-header .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #fff !important;
-  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
-  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
-  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  background: #fff;
+  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -953,50 +953,6 @@ form label {
   font-size: 18px;
   color: #5d5d5d;
   margin-bottom: 10px;
-}
-
-#rsvp {
-  position: relative;
-}
-#rsvp .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
-}
-#rsvp .fh5co-heading h2 {
-  color: #fff;
-}
-#rsvp .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-#rsvp .btn {
-  height: 54px;
-  /* border: none !important; */
-  /* background: #F14E95; */
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  background: rgba(0, 0, 0, 0.3);
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 400;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-#rsvp .btn:hover {
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  background: rgba(0, 0, 0, 0.8);
-}
-
-#rsvp .fh5co-heading {
-  margin-bottom: 30px;
-}
-#rsvp .fh5co-heading h2 {
-  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {

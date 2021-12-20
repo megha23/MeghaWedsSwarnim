@@ -1,5 +1,17 @@
 /* =================================== Countdown  ============================== */
 
+#fh5co-header .display-tc .btn:hover{
+  color: #071330;
+  border: 2px solid rgba(7,19,48, 0.8);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#fh5co-header .display-tc .btn{
+  color: #ffff;
+  border: 2px solid rgba(255,255,255, 0.8);
+  background: rgba(7,19,48, 0.8);
+}
+
 .simply-countdown {
   /* The countdown */
   margin-bottom: 1em;
@@ -11,7 +23,7 @@
   display: inline-block;
   width: 80px;
   height: 80px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(7,19,48, 0.7);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
