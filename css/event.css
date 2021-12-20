@@ -2,6 +2,19 @@
   height: 1000px;
   float: left;
   background-position: center;
+  width: 100%;
+  padding: 5em 0;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-event {
+    height: inherit;
+    padding: 2em 0;
+  }
+  #fh5co-event .display-t,
+  #fh5co-event .display-tc {
+    height: inherit;
+  }
 }
 
 #fh5co-event .display-t,
@@ -14,7 +27,7 @@
 #event-details-heading {
   color: #fff;
   margin-bottom: 0.5em;
-  font-size: 60px;
+  font-size: 80px;
   font-family: "Sacramento", Arial, serif;
 }
 
@@ -33,16 +46,6 @@
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.4);
-}
-@media screen and (max-width: 768px) {
-  #fh5co-event {
-    height: inherit;
-    padding: 7em 0;
-  }
-  #fh5co-event .display-t,
-  #fh5co-event .display-tc {
-    height: inherit;
-  }
 }
 
 #fh5co-event .event-wrap {

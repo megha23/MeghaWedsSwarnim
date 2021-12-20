@@ -39,7 +39,10 @@
 
 		<!-- Theme style  -->
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/invite.css">
 		<link rel="stylesheet" href="css/event.css">
+		<link rel="stylesheet" href="css/countdown.css">
 
 		<!-- Modernizr JS -->
 		<script src="js/modernizr-2.6.2.min.js"></script>
@@ -65,7 +68,7 @@
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
 								<li class="active"><a href="index.html">Home</a></li>
-								<li> <a href="about.html">Story</a></li>
+								<li> <a href="story.html">Story</a></li>
 								<li> <a href="gallery.html">Gallery</a></li>
 							</ul>
 						</div>
@@ -73,7 +76,7 @@
 				</div>
 			</nav>
 
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/main-bg.jpg);" data-stellar-background-ratio="0.5">
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/main-bg.jpg);background-position:cover" data-stellar-background-ratio="0.5">
 				<div class="overlay" style="background: rgba(0, 0, 0, 0.6);"></div>
 				<div class="container">
 					<div class="row">
@@ -92,32 +95,11 @@
 			</header>
 
 			<!--  Invite   -->
-			<div id="fh5co-couple">
+			<div id="invite">
 				<div class="container">
-					<!-- <div class="couple-wrap animate-box">
-						<div class="couple-half">
-							<div class="groom">
-								<img src="images/groom.jpg" alt="groom" class="img-responsive">
-							</div>
-							<!-- <div class="desc-groom">
-								<h3>Swarnim Singhal</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-							</div> -->
-						<!-- </div>
-						<p class="heart text-center"><i class="icon-heart2"></i></p>
-						<div class="couple-half">
-							<div class="bride">
-								<img src="images/bride.jpg" alt="bride" class="img-responsive">
-							</div> -->
-							<!-- <div class="desc-bride">
-								<h3>Megha Goyal</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-							</div> -->
-						<!-- </div>
-					</div> -->
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center family-invite animate-box">
-							<h2>Nishi & Anup Singhal</h2>
+							<h1>Nishi & Anup Singhal</h1>
 							<h3>seek the pleasure of your gracious presence</h3>
 							<h3>on the Wedding Ceremony of their loving son</h3>
 							<h2>Swarnim</h2>
@@ -129,7 +111,7 @@
 				</div>
 		  </div>
 
-			<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/raga-1.jpg);">
+			<div id="fh5co-event" style="background-image:url(images/raga-1.jpg);">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row">
@@ -141,7 +123,7 @@
 					<div class="row">
 						<div class="display-t">
 							<div class="display-tc">
-								<div class="col-md-15 col-md-offset-1">
+								<div class="col-md-15">
 									<div class="col-md-4 col-sm-6 text-center">
 										<div class="event-wrap animate-box">
 											<h3>Thaapa</h3>
@@ -254,82 +236,59 @@
 			<div id="fh5co-gallery" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" style="margin-bottom:2em;">
 						<span>Our Families</span>
 						<h2>Meet our Lifelines</h2>
 						<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
 					</div>
 				</div>
+
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12">
 						<ul id="fh5co-gallery-list">
+
+							<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/MummaPapa.jpg); ">
+								<a href="#" class="color-2">
+									<div class="case-studies-summary">
+										<!-- <span>Groom's Parents</span> -->
+										<h2>Groom's Parents</h2>
+									</div>
+								</a>
+							</li>
+
 							<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/brides-parents.jpeg); background-position:15% 15%">
-							<a href="images/brides-parents-1.jpg">
-								<div class="case-studies-summary">
-									<!-- <span>Bride's Parents</span> -->
-									<h2>Bride's Parents</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-							<a href="#" class="color-2">
-								<div class="case-studies-summary">
-									<!-- <span>Groom's Parents</span> -->
-									<h2>Groom's Parents</h2>
-								</div>
-							</a>
-						</li>
+								<a href="images/brides-parents-1.jpg">
+									<div class="case-studies-summary">
+										<!-- <span>Bride's Parents</span> -->
+										<h2>Bride's Parents</h2>
+									</div>
+								</a>
+							</li>
 
-
-						<li class="one-side animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>The Bride</span>
-									<!-- <h2>Megha Goyal</h2> -->
-								</div>
-							</a>
-						</li>
-						<li class="one-center animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#" class="color-3">
-								<div class="case-studies-summary">
-									<!-- <span>Bride's Bhaiya Bhabhi</span> -->
-									<h2>Bride's Bhaiya Bhabhi</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-side animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>The Groom</span>
-									<!-- <h2>Swarnim Singhal</h2> -->
-								</div>
-							</a>
-						</li>
-
-							<!-- <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
+							<li class="one-side animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
 								<a href="#" class="color-4">
 									<div class="case-studies-summary">
-										<span>35 Photos</span>
-										<h2>Two Glas of Juice</h2>
+										<span>The Bride</span>
+										<!-- <h2>Megha Goyal</h2> -->
 									</div>
 								</a>
 							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); ">
-								<a href="#" class="color-5">
+							<li class="one-center animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
+								<a href="#" class="color-3">
 									<div class="case-studies-summary">
-										<span>90 Photos</span>
-										<h2>Timer starts now!</h2>
+										<!-- <span>Bride's Bhaiya Bhabhi</span> -->
+										<h2>Bride's Bhaiya Bhabhi</h2>
 									</div>
 								</a>
 							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-								<a href="#" class="color-6">
+							<li class="one-side animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
+								<a href="#" class="color-4">
 									<div class="case-studies-summary">
-										<span>56 Photos</span>
-										<h2>Beautiful sunset</h2>
+										<span>The Groom</span>
+										<!-- <h2>Swarnim Singhal</h2> -->
 									</div>
 								</a>
-							</li> -->
+							</li>
 						</ul>
 					</div>
 				</div>
