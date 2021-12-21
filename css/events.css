@@ -2,17 +2,18 @@
   padding: 3em 0;
   clear: both;
 }
+
 @media screen and (max-width: 768px) {
   #events-details{
     padding: 1em 0;
   }
 }
 
-#events-details .fh5co-heading{
+#events-details .heading{
   margin-bottom: 1em;
 }
 
-#events-details .fh5co-heading p{
+#events-details .heading p{
   font-size: 24px;
   font-family: "Playball", Arial, serif;
 }
