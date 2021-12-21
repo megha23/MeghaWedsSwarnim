@@ -14,13 +14,6 @@
     padding: 20px 0;
   }
 }
-.fh5co-nav #fh5co-logo {
-  font-size: 40px;
-  margin: 0;
-  padding: 0;
-  line-height: 40px;
-  font-family: "Rochester", Arial, serif;
-}
 
 #our-logo {
   position: absolute;
@@ -43,16 +36,12 @@
   }
 }
 
-
-.fh5co-nav a {
-  padding: 5px 10px;
-  color: #fff;
-}
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
     display: none;
   }
 }
+
 .fh5co-nav ul {
   padding: 0;
   margin: 2px 0 0 0;
@@ -63,6 +52,8 @@
   list-style: none;
   display: inline;
 }
+
+
 .fh5co-nav ul li a {
   font-size: 14px;
   padding: 30px 10px;
@@ -72,12 +63,15 @@
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
+
+.fh5co-nav ul li a:hover, .fh5co-nav ul li a:active {
   color: white;
 }
+
 .fh5co-nav ul li.has-dropdown {
   position: relative;
 }
+
 .fh5co-nav ul li.has-dropdown .dropdown {
   width: 130px;
   -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
