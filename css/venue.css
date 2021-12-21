@@ -1,5 +1,5 @@
-#event-details {
-  height: 1000px;
+#venue-details {
+  height: 750px;
   float: left;
   background-position: center;
   background-size: cover;
@@ -10,31 +10,31 @@
 }
 
 @media screen and (max-width: 768px) {
-  #event-details {
+  #venue-details {
     height: inherit;
     padding: 2em 0;
   }
-  #event-details .display-t,
-  #event-details .display-tc {
+  #venue-details .display-t,
+  #venue-details .display-tc {
     height: inherit;
   }
 }
 
-#event-details .display-t,
-#event-details .display-tc {
+#venue-details .display-t,
+#venue-details .display-tc {
   height: 700px;
   display: table;
   width: 100%;
 }
 
-#event-details-heading {
+#venue-details-heading {
   color: #fff;
   margin-bottom: 0.5em;
   font-size: 80px;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Rochester", Arial, serif;
 }
 
-#event-details .fh5co-heading span {
+#venue-details .fh5co-heading span {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   font-size: 13px;
@@ -42,7 +42,7 @@
   font-weight: 600;
 }
 
-#event-details .overlay {
+#venue-details .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -51,7 +51,7 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-#event-details .event-wrap {
+#venue-details .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.3);
   background: rgba(0, 0, 0, 0.4);
   padding: 20px;
@@ -64,12 +64,12 @@
   border-radius: 3px;
 }
 @media screen and (max-width: 768px) {
-  #event-details .event-wrap {
+  #venue-details .event-wrap {
     margin-bottom: 10px;
   }
 }
 
-#event-details .event-wrap h3 {
+#venue-details .event-wrap h3 {
   font-size: 20px;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -79,18 +79,18 @@
   letter-spacing: 2px;
 }
 
-#event-details .event-wrap p,
-#event-details .event-wrap span {
+#venue-details .event-wrap p,
+#venue-details .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
 }
 
-#event-details .event-wrap i {
+#venue-details .event-wrap i {
   color: white;
   font-size: 20px;
 }
 
-#event-details .event-wrap .event-col {
+#venue-details .event-wrap .event-col {
   width: 50%;
   float: left;
   margin-bottom: 30px;

@@ -19,8 +19,31 @@
   margin: 0;
   padding: 0;
   line-height: 40px;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Rochester", Arial, serif;
 }
+
+#our-logo {
+  position: absolute;
+  width:250px;
+  margin-left: -60px;
+  margin-top: -80px;
+}
+
+@media screen and (max-width: 768px) {
+  #our-logo {
+    margin-left: -30px;
+    margin-top: -40px;
+    width:175px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #our-logo {
+    width:125px;
+  }
+}
+
+
 .fh5co-nav a {
   padding: 5px 10px;
   color: #fff;
