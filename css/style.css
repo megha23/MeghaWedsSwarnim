@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .couple-wrap {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -601,6 +601,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 180px;
   text-align: left;
 }
+
+
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
     margin-left: 0;
