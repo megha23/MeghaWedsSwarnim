@@ -155,6 +155,16 @@
   letter-spacing: 2px;
 }
 
+
+/* For laptop */
+@media (min-width: 992px) {
+  .timeline-body {
+    height: 130px;
+  }
+}
+
+
+
 .timeline-body > p, .timeline-body > ul {
   margin-bottom: 0;
 }
