@@ -1,19 +1,19 @@
-#events-details {
+#itinerary-details {
   padding: 3em 0;
   clear: both;
 }
 
 @media screen and (max-width: 768px) {
-  #events-details{
+  #itinerary-details{
     padding: 1em 0;
   }
 }
 
-#events-details .heading{
+#itinerary-details .heading{
   margin-bottom: 1em;
 }
 
-#events-details .heading p{
+#itinerary-details .heading p{
   font-size: 24px;
   font-family: "Playball", Arial, serif;
 }
