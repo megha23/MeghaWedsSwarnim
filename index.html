@@ -84,8 +84,7 @@
 									<h1 style="margin-top:1.5em;">Swarnim &amp; Megha</h1>
 									<h2>Are Getting Married!</h2>
 									<div class="simply-countdown simply-countdown-one"></div>
-									<p><a target="_blank" class="btn btn-default btn-sm" id="save-date-btn">Save the date : 16-17 April, 2022</a></p>
-
+									<p><a id="venue-link" class="btn btn-default btn-sm" id="save-date-btn" onclick="document.getElementById('my_audio').play()" href="#invite">Click here to join us</a></p>
 								</div>
 							</div>
 						</div>
@@ -452,7 +451,7 @@
 			        });
 			    });
 			});
-
+			//
 			// document.body.addEventListener("mousemove", function () {
 			//     document.getElementById("my_audio").play();
 			// });
@@ -464,6 +463,8 @@
 
 
 		</script>
+
+		<audio id="my_audio" src="images/song.mp3" loop="loop"></audio>
 
 	</body>
 </html>
