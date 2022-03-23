@@ -305,16 +305,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding: 5em 0;
 }
 
-.family-invite h2 {
-  font-size: 60px;
-  margin-bottom: 8px;
-  line-height: 1;
-  font-weight: bold;
-	/* color: #071330; */
-	color: #760116;
-  font-family: "Rochester", Arial, serif;
-}
-
 .family-invite h1 {
   font-size: 45px;
   margin: 15px;
@@ -323,10 +313,25 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Playball", Arial, serif;
 }
 
+.family-invite h2 {
+  font-size: 60px;
+  margin-bottom: 8px;
+  line-height: 1;
+  font-weight: bold;
+	/* color: #071330; */
+	color: #760116;
+  font-family: "Playball", Arial, serif;
+}
+
+.family-invite h3 {
+  font-size: 30px;
+  font-family: "Playball", Arial, serif;
+}
+
 .family-invite p {
   font-size: 40px;
   color: #828282;
-  font-family: "Rochester", Arial, serif;
+  font-family: "Playball", Arial, serif;
   margin: 0;
 }
 
