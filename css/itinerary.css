@@ -13,6 +13,10 @@
   margin-bottom: 1em;
 }
 
+#itinerary-details .timeline-body{
+  color: #071330;
+}
+
 #itinerary-details .heading p{
   font-size: 24px;
   font-family: "Playball", Arial, serif;
@@ -159,11 +163,9 @@
 /* For laptop */
 @media (min-width: 992px) {
   .timeline-body {
-    height: 130px;
+    height: 140px;
   }
 }
-
-
 
 .timeline-body > p, .timeline-body > ul {
   margin-bottom: 0;

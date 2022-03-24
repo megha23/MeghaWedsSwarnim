@@ -571,6 +571,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
   font-weight: bold
 }
+
+.couple-half p {
+  color: #071330;
+}
+
 .couple-half .groom, .couple-half .bride {
   float: left;
   -webkit-border-radius: 50%;
