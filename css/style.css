@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-/* ====================================== invite   ====================================== */
+/* ====================================== formal-invite   ====================================== */
 
 #invite {
 	padding: 5em 0;
@@ -334,6 +334,48 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Playball", Arial, serif;
   margin: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .family-invite h2 {
+    max-width: 768px;
+    font-size: 200%;
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 1;
+    font-weight: bold;
+    color: #8E116E;
+
+  }
+  .family-invite h1 {
+    max-width: 768px;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    line-height: 1;
+
+  }
+  .family-invite p {
+    max-width: 768px;
+    font-size: 150%;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 1;
+    font-weight: bold;
+
+  }
+  .family-invite h3 {
+    max-width: 768px;
+    font-size: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1;
+
+  }
+}
+
 
 /* ==================================== Gallery  ====================================*/
 
