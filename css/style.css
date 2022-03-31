@@ -187,12 +187,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 .fh5co-cover .display-tc h1, .fh5co-cover .display-tc h2 {
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   color: white;
 }
 
 #fh5co-header .display-tc h1, .fh5co-cover .display-tc h1 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 100px;
   line-height: 1.5;
   font-family: "Rochester", Arial, serif;
@@ -209,11 +210,12 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1, .fh5co-cover .display-tc h1 {
     font-size: 40px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1, .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
@@ -339,7 +341,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .family-invite h2 {
     max-width: 768px;
     font-size: 200%;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     text-align: center;
     line-height: 1;
     font-weight: bold;
@@ -350,7 +352,7 @@ h1, h2, h3, h4, h5, h6, figure {
     max-width: 768px;
     font-size: 150%;
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     margin-top: 10px;
     line-height: 1;
 
@@ -358,7 +360,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .family-invite p {
     max-width: 768px;
     font-size: 150%;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     text-align: center;
     margin-top: 8px;
     line-height: 1;
@@ -369,7 +371,7 @@ h1, h2, h3, h4, h5, h6, figure {
     max-width: 768px;
     font-size: 100%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     text-align: center;
     line-height: 1;
 
